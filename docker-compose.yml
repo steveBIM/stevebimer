@@ -10,7 +10,7 @@ services:
     environment:
       TZ: Asia/Shanghai
       REDIS_HOST: redis:6379
-      REDIS_PASSWORD: 12345678
+      REDIS_PASSWORD: ''
     depends_on:
       - redis
     networks:
@@ -20,9 +20,6 @@ services:
     container_name: blog-cache
     image: redis
     restart: unless-stopped
-    ports:
-      - 6379:6379
-    command: redis-server --save 20 1 --requirepass 12345678
     volumes:
       - /data/docker-compose/blog/redis/data:/app/data
 
