@@ -24,3 +24,6 @@ jobs:
         with:
           push: true
           tags: imbytecat/nextjs-notion-starter-kit:latest
+          secrets: |
+            "REDIS_HOST=${{ secrets.MYSQL_HOST}}"
+            "REDIS_PASSWORD=${{ secrets.MYSQL_USER}}"
