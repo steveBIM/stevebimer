@@ -45,7 +45,8 @@ export default siteConfig({
   pageUrlOverrides: {
     '/about': 'db92214d309247369334059e66425725',
     '/links': '3b6da48e18014cdebdd27682b0a573e3',
-    '/archives': '6ebf8ec165514ef69b0732899c91380f'
+    '/archives': '6ebf8ec165514ef69b0732899c91380f',
+    '/reading': 'ec340388f1434e059bf3bdcf64546e4a'
   },
   // pageUrlOverrides: null,
 
