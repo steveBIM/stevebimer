@@ -286,18 +286,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
           serverURL='https://waline.imbytecat.com'
           path={'/' + block.id.replace(/-/g, '')}
           emoji={[
-            '//cdn.jsdelivr.net/gh/walinejs/emojis@1.1.0/tw-emoji',
-            '//cdn.jsdelivr.net/gh/walinejs/emojis@1.1.0/tw-body',
-            '//cdn.jsdelivr.net/gh/walinejs/emojis@1.1.0/tw-people',
-            '//cdn.jsdelivr.net/gh/walinejs/emojis@1.1.0/tw-natural',
-            '//cdn.jsdelivr.net/gh/walinejs/emojis@1.1.0/tw-weather',
-            '//cdn.jsdelivr.net/gh/walinejs/emojis@1.1.0/tw-food',
-            '//cdn.jsdelivr.net/gh/walinejs/emojis@1.1.0/tw-sport',
-            '//cdn.jsdelivr.net/gh/walinejs/emojis@1.1.0/tw-travel',
-            '//cdn.jsdelivr.net/gh/walinejs/emojis@1.1.0/tw-object',
-            '//cdn.jsdelivr.net/gh/walinejs/emojis@1.1.0/tw-symbol',
-            '//cdn.jsdelivr.net/gh/walinejs/emojis@1.1.0/tw-time',
-            '//cdn.jsdelivr.net/gh/walinejs/emojis@1.1.0/tw-flag',
+            '//cdn.jsdelivr.net/gh/walinejs/emojis@1.1.0/tw-emoji'
           ]}
           dark={isDarkMode}
           meta={['nick', 'mail']}
