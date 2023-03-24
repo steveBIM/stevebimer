@@ -2,7 +2,7 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '63905c45dbd44b7da4c87bd176c0451a',
+  rootNotionPageId: '430c475e1d504d6a8e3aebd28c54fd9b',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'imbytecat',
-  domain: 'www.imbytecat.com',
+  domain: 'https://www.notion.so/Import-Parameter-430c475e1d504d6a8e3aebd28c54fd9b',
   author: 'imbytecat',
 
   // open graph metadata (optional)
